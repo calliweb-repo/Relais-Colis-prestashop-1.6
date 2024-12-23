@@ -1,0 +1,17 @@
+{
+    "config": {
+        "prepend-autoloader": false
+    },
+    "name": "csobanski/relaiscolis",
+    "type": "module",
+    "require": {
+        "prestashop/php-dev-tools": "^3",
+        "friendsofphp/php-cs-fixer": "^2.19"
+    },
+    "authors": [
+        {
+            "name": "sobanskic",
+            "email": "csobanski@quadra-informatique.fr"
+        }
+    ]
+}

@@ -1,0 +1,268 @@
+/**
+ * 1969-2018 Relais Colis
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to contact@relaiscolis.com so we can send you a copy immediately.
+ *
+ *  @author    Quadra Informatique <modules@quadra-informatique.fr>
+ *  @copyright 1969-2018 Relais Colis
+ *  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+#frame_relais {
+    display: none;
+}
+
+#frame_relais .relais-title,
+#relais_home_options .relais-title {
+    color: #000;
+    font-size: 22px;
+}
+
+#frame_relais .relay-info-intro,
+#relais_home_options .relay-info-intro {
+    text-decoration: underline;
+    color: #c0d349;
+    padding-bottom: 15px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+#frame_relais .choice-info,
+#relais_home_options .choice-info {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+#frame_relais .relay-info-title,
+#relais_home_options .relay-info-title {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    color: #000;
+}
+
+.flag-img {
+    width: 100%;
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 10px 0px;
+    margin-bottom: 15px;
+}
+
+#frame_relais form label.grey,
+label.grey {
+    color: #9c9c9c;
+    font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4;
+    text-rendering: optimizespeed;
+    text-transform: uppercase;
+}
+
+#frame_relais label {
+    -moz-user-select: none;
+    display: inline-block;
+    font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#frame_relais input.small[type="text"],
+#frame_relais select.small {
+    -moz-appearance: none;
+    border-color: none;
+    background-color: transparent;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    color: black;
+    height: 27px;
+    margin-bottom: 0;
+    padding: 0;
+    text-indent: 0;
+    text-overflow: "";
+    width: 100%;
+}
+
+#map_rc_wrapper {
+    display: none;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+#frame_relais .column {
+    margin-top: 15px;
+}
+
+#frame_relais #divEmplacement {
+    padding: 15px;
+}
+
+#frame_relais #searchBar {
+    padding: 10px;
+    margin-top: 20px;
+    align-items: end;
+    display: flex;
+}
+
+#frame_relais .button-relais i[class^="icon-"] {
+    margin-left: 5px;
+}
+
+#frame_relais .button-relais:hover:after {
+    transform: translate(-50%) rotate(0) translateZ(0);
+    -webkit-transition: opacity 0s, top .6s, transform .8s;
+    -o-transition: opacity 0s, top .6s, transform .8s;
+    transition: opacity 0s, top .6s, transform .8s;
+    opacity: 1;
+    top: 0;
+}
+
+#frame_relais .button-relais::after {
+    background-color: #cedc71;
+    -webkit-backface-visibility: hidden;
+    content: "";
+    height: 150%;
+    left: 20%;
+    opacity: 1;
+    outline: 1px solid transparent;
+    padding-top: calc(800% + 8px);
+    position: absolute;
+    top: 100%;
+    transform: translate(-32%) rotate(-17deg);
+    -webkit-transition: opacity .6s, top 0s .3s, transform 0s .3s;
+    -o-transition: opacity .6s, top 0s .3s, transform 0s .3s;
+    transition: opacity .6s, top 0s .3s, transform 0s .3s;
+    width: calc(800% + 8px);
+    z-index: -1;
+}
+
+#divMapContainer {
+    height: 430px;
+    font-family: Arial;
+}
+
+#divGlobal {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#divInfohtml {
+    max-height: 430px;
+    overflow: auto;
+    font-family: calibri;
+}
+
+#divInfohtml .wrapper-locate {
+    border-bottom: 1px solid #d3d3d3;
+    margin-top: 15px;
+}
+
+#divInfohtml .locate-info {
+    margin-top: 5px;
+}
+
+#divInfohtml .locate-title a {
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 0;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+#divInfohtml .locate-title a:hover {
+    cursor: pointer;
+}
+
+#divInfohtml .locate-title {
+    margin-bottom: 15px;
+}
+
+.num-locate {
+    border: 1px solid rgb(192, 211, 73);
+    border-radius: 80px;
+    background-color: rgb(192, 211, 73);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 3px 8px;
+}
+
+.sMapBubble td,
+.sMapBubble th {
+    padding: 0;
+}
+
+.relais-link {
+    background: #c0d349;
+    color: #fff;
+    font-size: 12px;
+    margin: 15px 0px;
+    padding: 5px;
+    border-radius: 3px;
+    z-index: 99;
+}
+
+#divInfohtml .relais-link {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.free_rc,
+.rc_price {
+    font-style: italic;
+    color: #c0d349;
+    font-weight: bold;
+}
+
+#divMapContainer .ui-picto-poi div {
+    font-size: 14px;
+    background-color: transparent !important;
+    left: 2px !important;
+    top: 18px !important;
+    z-index: 1001;
+}
+
+.button-relais {
+    align-items: center;
+    background: none;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 5px 9px transparent;
+    color: inherit;
+    cursor: pointer;
+    display: flex;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    height: 44px;
+    justify-content: center;
+    line-height: 44px;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0 30px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: .6s;
+    white-space: nowrap;
+    z-index: 1;
+    background-color: #c0d248;
+    color: #fff;
+}

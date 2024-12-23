@@ -1,0 +1,5 @@
+Hi {first name} {name},
+
+You can access your Smart Delivery label Relay Colis by clicking on this link: {smart_label_url}
+
+Best regards.

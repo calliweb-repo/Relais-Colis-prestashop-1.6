@@ -1,0 +1,5 @@
+Bonjour {firstname} {lastname},
+
+Vous pouvez accéder à votre bordereau Smart Relais Colis en cliquant sur ce lien : {smart_label_url}
+
+Cordialement.
