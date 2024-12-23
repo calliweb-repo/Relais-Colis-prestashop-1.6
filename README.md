@@ -1,14 +1,12 @@
 # Relais Colis - Module pour Prestashop 1.6
 
-Le développement de ce projet est dirigé par [We+](https://we-plus.fr/).
+The development of this project is led by [Calliweb](https://calliweb.fr).
 
 
-[[_TOC_]]
 
+## About
 
-## À propos
-
-Le module de livraison officiel de Relais Colis.
+Relais Colis Delivery Module for Prestashop
 
 
 ## Stack technique
@@ -20,37 +18,6 @@ Le module de livraison officiel de Relais Colis.
 
 * [Site officiel](https://relaiscolis.com/)
 * [Manuel Utilisateur](https://docs.google.com/document/d/1BEaSv4rEyKXmmO58z8EjCp76n8-DtckP/edit)
-
-
-## Mise en route
-
-### Pré-requis
-
-TODO :
-
-### Pré-requis pour le développement
-
-TODO :
-
-### Installation
-
-TODO :
-
-
-## Utilisation
-
-TODO :
-
-
-## Développement
-
-### Qualité de code
-
-TODO :
-
-### Exécution des tests
-
-TODO :
 
 
 ## Changelog
