@@ -1,0 +1,5 @@
+Bonjour {firstname} {lastname},
+
+Vous pouvez accéder à votre étiquette Relais Colis en cliquant sur ce lien : {label_url}
+
+Cordialement.

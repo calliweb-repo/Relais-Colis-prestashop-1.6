@@ -1,0 +1,119 @@
+/**
+ * 1969-2018 Relais Colis
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to contact@relaiscolis.com so we can send you a copy immediately.
+ *
+ *  @author    Quadra Informatique <modules@quadra-informatique.fr>
+ *  @copyright 1969-2018 Relais Colis
+ *  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+
+.relais-header h4 {
+    margin: 10px 0;
+    font-size: 1.8em;
+}
+
+.relais-header h5 {
+    font-size: 1.4em;
+    margin: 10px 0;
+}
+
+.relais-header h6 {
+    font-size: 1.3em;
+    margin: 10px 0;
+}
+
+.relais-header .support p {
+    margin: 10px 0 0 0;
+}
+
+.relais-header div h4:first-child,
+.relais-header div h5:first-child {
+    margin: 0 0 10px 0;
+}
+
+.relais-warning {
+    border: 1px solid rgb(192, 211, 73);
+    background-color: rgb(192, 211, 73);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 3px 8px;
+}
+
+#content.bootstrap .relais-about h3 {
+    margin-top: 20px;
+}
+
+.relais-header #relais-logo,
+.relais-about img {
+    max-width: 100%;
+    height: auto;
+}
+
+.waiting_relais {
+    display: none;
+}
+
+#informations_relais_colis .well {
+    margin: 2px;
+}
+
+#informations_relais_colis #submitPdfLabel {
+    margin-bottom: 24px;
+}
+
+#select_format {
+    margin-bottom: 15px;
+}
+
+#select_format span {
+    margin-right: 15px;
+}
+
+span.success {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 8px;
+    font-size: 12px;
+    line-height: 1.42857;
+    border-radius: 3px;
+    color: #000;
+    background-color: #daeddd;
+    border-color: #c7dbca;
+}
+
+.rc-information table tbody tr>td:first-child,
+.rc-information table tbody tr:last-child>td {
+    font-weight: bold;
+}
+
+.rc-information table tbody tr:last-child>td {
+    border-top: solid 1px #a0d0eb;
+}
+
+.rc-information table tbody tr>td:last-child {
+    text-align: right;
+}
+
+.rc-summary-table td {
+    font-size: 10px !important;
+}
+
+.rc-summary-table td:nth-child(2) {
+    text-align: right;
+}

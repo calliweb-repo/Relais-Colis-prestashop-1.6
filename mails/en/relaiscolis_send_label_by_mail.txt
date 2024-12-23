@@ -1,0 +1,5 @@
+Hi {first name} {name},
+
+You can access your Relay Colis label by clicking on this link: {label_url}
+
+Best regards.
